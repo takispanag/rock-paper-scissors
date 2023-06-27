@@ -77,4 +77,5 @@ Disadvantages of this implementation:
 - The game is played in a console-based environment, which might not provide an interactive or visually appealing experience.
 - The number of rounds to run could be an input from the command line, but as indicated in the exercise the round number
 is fixed to 100. If we decide to make it a cli app, minimal refactoring will be needed.
-- The implementation only includes two players with fixed strategies, limiting the variety of gameplay.
+- The implementation only includes two players with ```PlayerA``` having a fixed strategy (always selecting Paper), 
+limiting the variety of gameplay.
