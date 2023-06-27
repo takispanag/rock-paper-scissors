@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class PlayerBTests {
 
     @Test
-    public void testPlayerB_GetMove_ReturnsRandom() {
+    public void testGetMove_ReturnsRandomMove() {
         // HashMap indicating the count of each move
         Map<Move, Integer> moveCount = new HashMap<>();
         List<Move> validMoves = new ArrayList<>(Arrays.asList(

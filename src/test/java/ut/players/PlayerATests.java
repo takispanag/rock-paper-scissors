@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 public class PlayerATests {
 
     @Test
-    public void testPlayerA_GetMove_ReturnsPaper() {
+    public void testGetMove_ReturnsPaper() {
         Player player = new PlayerA();
 
         assertNotNull(player.getMove());
