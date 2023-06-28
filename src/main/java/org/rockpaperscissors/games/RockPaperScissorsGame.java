@@ -23,6 +23,7 @@ public class RockPaperScissorsGame implements Game {
      * @param playerA     The Player A instance.
      * @param playerB     The Player B instance.
      * @param numOfRounds The number of rounds to be played in the game.
+     * @throws IllegalArgumentException If provided number of rounds is less than one.
      */
     public RockPaperScissorsGame(Player playerA, Player playerB, int numOfRounds) {
         this.playerA = playerA;
